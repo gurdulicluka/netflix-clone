@@ -40,7 +40,7 @@
 
 .loginScreen__body > h3 {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .loginScreen__body {
@@ -71,15 +71,16 @@
 
 .loginScreen__input > form > input {
   padding: 10px;
+  font-size: 1rem;
   outline-width: 0;
   height: 30px;
   width: 30%;
   border: none;
-  max-width: 600px;
+  max-width: 400px;
 }
 
 .loginScreen__input {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .loginScreen__getStarted {
@@ -90,5 +91,9 @@
   border: none;
   vertical-align: middle;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.loginScreen__logo:hover {
   cursor: pointer;
 }
