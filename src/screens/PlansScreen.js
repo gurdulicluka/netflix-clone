@@ -76,7 +76,7 @@ function PlansScreen() {
   return (
     <div className="plansScreen">
       {subscription && (
-        <p>
+        <p className="plansScreen__renewalDate">
           Renewal date :{" "}
           {new Date(
             subscription?.current_period_end * 1000

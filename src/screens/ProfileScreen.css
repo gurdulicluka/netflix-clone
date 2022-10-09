@@ -59,5 +59,6 @@
 
 .profileScreen__plans > h3 {
   border-bottom: 1px solid #282c2d;
-  padding-bottom: 10x;
+  padding-bottom: 10px;
+  font-size: 1.8rem;
 }

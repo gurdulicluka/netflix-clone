@@ -1,8 +1,17 @@
 .plansScreen__plan {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0px 20px 20px;
+  margin: 10px 0px;
   opacity: 0.8;
+}
+
+.planScreen__info > h5 {
+  font-size: 1.2rem;
+}
+
+.planScreen__info > h6 {
+  font-size: 0.8rem;
 }
 
 .plansScreen__plan:hover {
@@ -22,4 +31,9 @@
 .plansScreen__plan--disabled > button {
   background-color: gray;
   cursor: default;
+}
+
+.plansScreen__renewalDate {
+  margin-top: 10px;
+  font-weight: 500;
 }
